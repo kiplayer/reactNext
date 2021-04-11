@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsxs as _jsxs } from \"react/jsx-runtime\";\nexport default function Print(props) {\n  return /*#__PURE__*/_jsxs(\"div\", {\n    children: [\"Print : \", props.name]\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { useEffect, useState } from 'react';\nexport default function useFetch(url) {\n  const {\n    0: data,\n    1: setData\n  } = useState([]);\n  useEffect(() => {\n    fetch(url).then(res => {\n      return res.json();\n    }).then(data => {\n      setData(data);\n    });\n  }, [url]);\n  return data;\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -32,3 +32,37 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+$ apt-get update
+$ apt-get upgrade
+
+$ sudo apt-get install -y nodejs
+
+$ npx create-next-app
+or
+$ npm install --save init -y
+$ npm install --save react react-dom next
+$ npm install --save gh-pages
+
+$ npm install --save-dev typescript @types/react @types/node
+$ touch tsconfig.json
+$ npm install sass
+
+git config --global user.name kiplayer
+git config --global user.email kiplayer@naver.com
+git init
+
+git config --list
+git remote -v
+
+git remote add origin https://github.com/kiplayer/reactNext.git
+git status
+git add *
+or
+git add /
+git commit -m "First"
+git push origin master
+
+$ npm run build
+$ npm run export

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nexport default function Bottom() {\n  return /*#__PURE__*/_jsx(\"div\", {\n    id: \"footer\",\n    children: /*#__PURE__*/_jsx(\"div\", {\n      className: \"inner\",\n      children: \"Copyright\"\n    })\n  });\n}","map":null,"metadata":{},"sourceType":"module"}
