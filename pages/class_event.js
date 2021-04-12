@@ -23,7 +23,7 @@ export default function Class_event() {
 					showName();
 				}}>Show Name (Inline)</button><br />
 
-				<button onClick={showAge(10)}>Show age (Function)</button><br />
+				<button onClick={showAge}>Show age (Function)</button><br />
 				<button onClick={() => {
 					showAge(10);
 				}}>Show age (Inline)</button><br />
