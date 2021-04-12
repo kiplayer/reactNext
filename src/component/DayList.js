@@ -12,7 +12,7 @@ export default function DayList(props) {
 			<ul className={"tabBar"}>
 				{dummy.days.map(day => (
 					<li key={day.id} className={day.day == selectDay ? "active":""}>
-						<a href={'/day/'+day.day}>Day {day.day}</a>
+						<a href={'./day/'+day.day}>Day {day.day}</a>
 					</li>
 				))}
 			</ul>

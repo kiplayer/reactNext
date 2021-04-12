@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import useFetch from '../src/hooks/useFetch';
 
 export default function Class_hooks() {
-	const days = useFetch('/days.json');
-	const words = useFetch('/words.json');
+	const days = useFetch('./days.json');
+	const words = useFetch('./words.json');
 
 	return (
 		<>

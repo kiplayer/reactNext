@@ -5,7 +5,7 @@ export default function Class_fetch() {
 	const [words, setWords] = useState([]);
 
 	useEffect(() => {
-		fetch('/data.json')
+		fetch('./data.json')
 			.then(res => {
 				return res.json();
 			})
@@ -23,7 +23,7 @@ export default function Class_fetch() {
 			<ul className={"tabBar"}>
 				{days.map(day => (
 					<li key={day.id}>
-						<a href={'/day/'+day.day}>Day {day.day}</a>
+						<a href={'./day/'+day.day}>Day {day.day}</a>
 					</li>
 				))}
 			</ul>

@@ -190,7 +190,7 @@ function Top() {
     children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
       className: "inner",
       children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-        href: "/",
+        href: "./",
         children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h1", {
           children: "Logo"
         })
