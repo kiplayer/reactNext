@@ -1,23 +1,5 @@
 {
   "/_app": "pages/_app.js",
-  "/about": "pages/about.html",
-  "/api/hello": "pages/api/hello.js",
-  "/class_component": "pages/class_component.html",
-  "/class_css": "pages/class_css.html",
-  "/class_effect": "pages/class_effect.html",
-  "/class_event": "pages/class_event.html",
-  "/class_fetch": "pages/class_fetch.html",
-  "/class_hooks": "pages/class_hooks.html",
-  "/class_jsx": "pages/class_jsx.html",
-  "/class_map": "pages/class_map.html",
-  "/class_props": "pages/class_props.html",
-  "/class_route": "pages/class_route.html",
-  "/class_state": "pages/class_state.html",
-  "/day/[id]": "pages/day/[id].html",
-  "/example/user_list": "pages/example/user_list.html",
-  "/": "pages/index.html",
-  "/view/[id]": "pages/view/[id].html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }
